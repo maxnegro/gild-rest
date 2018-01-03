@@ -13,7 +13,7 @@
 
 	<div class="menu-mask" id="js-mask"></div>
 
-	<?php if (is_front_page() && is_home()) : ?>
+	<?php if (is_front_page() || is_home()) : ?>
 		<header class="header header-top" id="header">
 	<?php else : ?>
 		<header class="header" id="header">
