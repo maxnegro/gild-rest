@@ -10,12 +10,12 @@ var browserSyncWatchFiles = [
   './**/*.php'
 ];
 
-var browserSyncOptions = {
-  proxy: "http://rest-wp.dev",
-  notify: false,
-  open: 'external',
-  port: 9000
-};
+// var browserSyncOptions = {
+//   proxy: "http://rest-wp.dev",
+//   notify: false,
+//   open: 'external',
+//   port: 9000
+// };
 
 var gulp = require('gulp');
 var sass = require('gulp-sass');

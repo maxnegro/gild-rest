@@ -2751,11 +2751,11 @@ body {
         padding: 91px 30px 120px; } }
 
 ::-moz-selection {
-  background: #D5A239;
+  background: #0000FF;
   color: #fff; }
 
 ::selection {
-  background: #D5A239;
+  background: #0000FF;
   color: #fff; }
 
 p {
@@ -2771,7 +2771,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 600; }
 
 a {
-  color: #D5A239;
+  color: #0000FF;
   -webkit-transition: all 0.4s;
   transition: all 0.4s; }
   a:hover {
@@ -2785,7 +2785,7 @@ img {
   transition: all 0.4s; }
 
 .sticky {
-  border: 2px solid #E2B633; }
+  border: 2px solid #0033CC; }
 
 .screen-reader-text {
   clip: rect(1px 1px 1px 1px);
@@ -2845,7 +2845,7 @@ header.header {
           width: calc(100% - 40px);
           padding: 20px; } }
       header.header .header-inner .copy .copy-background {
-        background: #E2B633;
+        background: #0033CC;
         opacity: 0.8;
         position: absolute;
         top: 0;
@@ -2924,7 +2924,7 @@ header.header {
         content: '';
         width: 0%;
         height: 100%;
-        background: #E2B633;
+        background: #0033CC;
         display: block;
         position: absolute;
         z-index: 1003;
@@ -2964,7 +2964,7 @@ header.header {
       header.header .menu-btn-container.is-active a.menu-btn:hover {
         opacity: 1; }
       header.header .menu-btn-container.is-active a.menu-btn span {
-        background: #D5A239; }
+        background: #0000FF; }
         header.header .menu-btn-container.is-active a.menu-btn span:nth-child(1) {
           -webkit-transform: translateX(-12.5px) translateY(8px) rotate(-45deg);
                   transform: translateX(-12.5px) translateY(8px) rotate(-45deg); }
@@ -2983,7 +2983,7 @@ header.header {
                       transform: translateX(-10px) translateY(-7px) rotate(45deg); } }
     header.header .menu-btn-container a.menu-btn {
       display: block;
-      background: #D5A239;
+      background: #0000FF;
       width: 60px;
       height: 60px;
       border-radius: 50%;
@@ -3033,7 +3033,7 @@ header.header {
     width: 320px;
     overflow-y: auto;
     overflow-x: hidden;
-    background: #D5A239;
+    background: #0000FF;
     color: #fff;
     padding: 45px 30px 120px;
     height: 100vh;
@@ -3188,7 +3188,7 @@ main.main section.section {
     main.main section.section {
       margin: 20px 0 0; } }
   main.main section.section .section-inner {
-    background: #FCF8E9;
+    background: #6699FF;
     padding: 60px; }
     @media screen and (max-width: 1100px) {
       main.main section.section .section-inner {
@@ -3275,7 +3275,7 @@ main.main section.section {
         display: inline-block;
         text-align: center;
         font-size: 32px;
-        border-bottom: 3px solid #E2B633;
+        border-bottom: 3px solid #0033CC;
         letter-spacing: 3px; }
         @media screen and (max-width: 480px) {
           main.main section.section .section-inner .section-title h2 {
@@ -3286,7 +3286,7 @@ main.main section.section {
           content: '';
           width: 0;
           height: 100%;
-          background: #E2B633;
+          background: #0033CC;
           display: block;
           position: absolute;
           top: 0;
@@ -3467,7 +3467,7 @@ footer.footer {
           letter-spacing: 3px;
           font-size: 21px;
           font-weight: 600;
-          border-bottom: 3px solid #E2B633;
+          border-bottom: 3px solid #0033CC;
           padding-bottom: 5px;
           margin: 0 0 15px; }
         .sidebar .sidebar-inner .sidebar-content aside.widget .tagcloud a.tag-cloud-link {
@@ -3475,7 +3475,7 @@ footer.footer {
           position: relative;
           font-size: 12px !important;
           padding: 5px 7px 3px 18px;
-          background: #D5A239;
+          background: #0000FF;
           margin: 0 2px 7px 0;
           color: #fff; }
           .sidebar .sidebar-inner .sidebar-content aside.widget .tagcloud a.tag-cloud-link:before {
@@ -3583,7 +3583,7 @@ main.page-single-main article header.post-header {
       line-height: 27px;
       height: 24px;
       display: inline-block;
-      background: #D5A239;
+      background: #0000FF;
       color: #fff; }
       main.page-single-main article header.post-header .post-categories-container ul li a:after {
         content: "";
@@ -3595,7 +3595,7 @@ main.page-single-main article header.post-header {
         border-width: 12px 11px 12px 0px;
         right: -10px;
         top: 0;
-        border-color: #D5A239 transparent; }
+        border-color: #0000FF transparent; }
 
 main.page-single-main article .post-content {
   max-width: 800px;
@@ -3685,7 +3685,7 @@ main.page-single-main article .post-content {
     position: relative;
     padding: 0 0 0 18px; }
     main.page-single-main article .post-content h4:before {
-      background: #E2B633;
+      background: #0033CC;
       width: 8px;
       height: 8px;
       content: '';
@@ -4059,7 +4059,7 @@ main.page-single-main article footer.post-footer {
         position: relative;
         font-size: 12px;
         padding: 5px 7px 3px 18px;
-        background: #D5A239;
+        background: #0000FF;
         color: #fff; }
         main.page-single-main article footer.post-footer .post-tags ul li a:before {
           content: "";
@@ -4210,7 +4210,7 @@ main.page-single-main .post-comments {
         transition: all 0.4s;
         content: ''; }
       main.page-single-main .post-comments ul.comment-tabs li.active {
-        background: #D5A239;
+        background: #0000FF;
         color: #fff; }
         main.page-single-main .post-comments ul.comment-tabs li.active:after {
           content: '';
@@ -4219,7 +4219,7 @@ main.page-single-main .post-comments {
           bottom: -3px;
           width: 100%;
           height: 3px;
-          background: #D5A239; }
+          background: #0000FF; }
   main.page-single-main .post-comments .comment-list-container {
     margin: 0 0 30px; }
     @media screen and (max-width: 1100px) {
@@ -4364,7 +4364,7 @@ main.page-single-main .post-comments {
             padding: 0 0 0 18px; }
             main.page-single-main .post-comments .comment-list-container ol > li .comment-body .comment-right .comment-content h4:before,
             main.page-single-main .post-comments .comment-list-container ol > li.bypostauthor .comment-body .comment-right .comment-content h4:before {
-              background: #E2B633;
+              background: #0033CC;
               width: 8px;
               height: 8px;
               content: '';
@@ -4614,7 +4614,7 @@ main.page-single-main .post-comments {
       margin: 15px 0 0;
       text-align: center; }
       main.page-single-main .post-comments .comment-respond form.comment-form p.form-submit input[type="submit"] {
-        background: #D5A239;
+        background: #0000FF;
         padding: 15px 30px;
         color: #fff;
         -webkit-box-shadow: 0 5px 15px rgba(62, 58, 57, 0.2);
@@ -4645,7 +4645,7 @@ main.page-single-main .post-comments {
     content: '';
     width: 100%;
     height: 0%;
-    background: #E2B633;
+    background: #0033CC;
     display: block;
     position: absolute;
     top: 0;
@@ -4782,7 +4782,7 @@ main.page-single-main .post-comments {
             font-size: 10px;
             font-weight: 400;
             padding: 3px 5px 1px;
-            background: #D5A239;
+            background: #0000FF;
             color: #fff; }
             .articles article a .post-header figure.post-thumbnail .post-category:after {
               content: "";
@@ -4794,7 +4794,7 @@ main.page-single-main .post-comments {
               border-width: 11px 10px 10px 0;
               right: -10px;
               top: 0;
-              border-color: #D5A239 transparent; }
+              border-color: #0000FF transparent; }
       .articles article a .post-content {
         padding: 15px; }
         .articles article a .post-content time {
@@ -4840,7 +4840,7 @@ main.page-single-main .post-comments {
     width: 44px;
     height: 44px;
     line-height: 44px;
-    background: #D5A239;
+    background: #0000FF;
     color: #fff;
     position: absolute;
     top: 0;
@@ -4864,7 +4864,7 @@ form.post-password-form {
     border: 1px solid #eaeaea;
     width: calc(100% - 65px); }
   form.post-password-form input[type=submit] {
-    background: #D5A239;
+    background: #0000FF;
     color: #fff;
     cursor: pointer;
     -webkit-transition: all 0.4s;
