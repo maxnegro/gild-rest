@@ -272,7 +272,7 @@ header.header {
           }
         }
         @include mq() {
-          height: 40px;
+          // height: 40px;
         }
       }
     }
