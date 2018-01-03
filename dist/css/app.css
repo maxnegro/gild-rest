@@ -2934,7 +2934,6 @@ header.header {
                 animation: bkX 0.8s ease-in-out 0s forwards; }
       header.header .logo a img {
         vertical-align: bottom;
-        height: 60px;
         width: auto;
         -webkit-animation: bkTextImg 0.8s linear 0s forwards;
                 animation: bkTextImg 0.8s linear 0s forwards;
