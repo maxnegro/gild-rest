@@ -55,12 +55,12 @@
 
 			<?php
 			  $header_image = get_header_image();
-				if (has_post_thumbnail()) {
-					$header_image = get_the_post_thumbnail_url(null, 'original');
+				if (has_post_thumbnail($post->ID)) {
+					$header_image = wp_get_attachment_url( get_post_thumbnail_id($post->ID), 'full');
 				}
 			?>
 			<?php if (! empty($header_image)) : ?>
-				<div class="header-background" style="background-image: url(<?php header_image(); ?>);"></div>
+				<div class="header-background" style="background-image: url(<?php echo $header_image; ?>);"></div>
 			<?php else: ?>
 				<div class="header-background"></div>
 			<?php endif;?>
