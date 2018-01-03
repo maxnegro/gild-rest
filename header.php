@@ -53,7 +53,12 @@
 
 		<div class="header-inner">
 
-			<?php $header_image = get_header_image(); ?>
+			<?php
+			  $header_image = get_header_image();
+				if (has_post_thumbnail()) {
+					$header_image = get_the_post_thumbnail_url(null, 'original');
+				}
+			?>
 			<?php if (! empty($header_image)) : ?>
 				<div class="header-background" style="background-image: url(<?php header_image(); ?>);"></div>
 			<?php else: ?>
