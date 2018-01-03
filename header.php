@@ -21,7 +21,7 @@
 
 		<div class="logo">
 			<?php if (! has_custom_logo()) : ?>
-				<?php if (is_front_page() && is_home()) : ?>
+				<?php if (is_front_page() || is_home()) : ?>
 					<h1 class="logo-txt"><a rel="home" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>"><?php bloginfo( 'name' ); ?></a></h1>
 				<?php else : ?>
 					<a class="logo-txt" rel="home" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>"><?php bloginfo( 'name' ); ?></a>
@@ -60,7 +60,7 @@
 				<div class="header-background"></div>
 			<?php endif;?>
 
-			<?php if (is_front_page() && is_home() && get_bloginfo('description')) : ?>
+			<?php if ((is_front_page() || is_home()) && get_bloginfo('description')) : ?>
 
 				<div class="copy">
 					<div class="copy-background"></div>
@@ -74,7 +74,7 @@
 
 		</div>
 
-		<?php if (is_front_page() && is_home()) : ?>
+		<?php if (is_front_page() || is_home()) : ?>
 			<div class="scroll-down">
 				<div class="line"></div>
 			</div>
