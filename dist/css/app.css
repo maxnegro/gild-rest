@@ -3184,7 +3184,7 @@ main.main section.section {
     main.main section.section {
       margin: 20px 0 0; } }
   main.main section.section .section-inner {
-    background: #6699FF;
+    background: #E6ECFF;
     padding: 60px; }
     @media screen and (max-width: 1100px) {
       main.main section.section .section-inner {
@@ -4875,3 +4875,11 @@ form.post-password-form {
     -webkit-appearance: none; }
     form.post-password-form input[type=submit]:hover {
       opacity: 0.6; }
+
+.languageswitcher {
+  position: absolute;
+  top: 60px;
+  left: 93%; }
+
+.lang-item {
+  display: inline; }
