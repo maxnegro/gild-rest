@@ -1,7 +1,7 @@
 $main_color: #0033CC;
 $text_color: #232323;
 $link_color: #0000FF;
-$background_light: #6699FF;
+$background_light: #E6ECFF;
 
 $breakpoints: (
   'xs': 'screen and (max-width: 321px)',
@@ -2356,4 +2356,14 @@ form.post-password-form {
       opacity: 0.6;
     }
   }
+}
+
+.languageswitcher {
+  position: absolute;
+  top: 60px;
+  left: 93%;
+}
+
+.lang-item {
+  display: inline;
 }

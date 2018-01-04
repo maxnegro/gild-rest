@@ -31,6 +31,10 @@
 			<?php endif; ?>
 		</div>
 
+		<div class="languageswitcher">
+			<ul><?php pll_the_languages(array('show_flags'=>1, 'show_names'=>0));?></ul>
+		</div>
+
 		<div class="menu-btn-container" id="js-btn">
 			<a class="menu-btn">
 				<span></span>
