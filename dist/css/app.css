@@ -3782,8 +3782,7 @@ main.page-single-main article .post-content {
   main.page-single-main article .post-content del, main.page-single-main article .post-content strike {
     text-decoration: line-through; }
   main.page-single-main article .post-content em {
-    font-style: italic;
-    font-weight: 600; }
+    font-style: italic; }
   main.page-single-main article .post-content ins {
     border-bottom: 1px solid #454545; }
   main.page-single-main article .post-content pre {
