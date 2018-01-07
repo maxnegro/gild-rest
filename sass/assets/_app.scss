@@ -272,6 +272,8 @@ header.header {
           }
         }
         @include mq() {
+          width: 50%;
+          height: auto;
           // height: 40px;
         }
       }

@@ -2943,6 +2943,10 @@ header.header {
           @media screen and (max-width: 1100px) {
             header.header .logo a img:hover {
               opacity: 1; } }
+        @media screen and (max-width: 1100px) {
+          header.header .logo a img {
+            width: 50%;
+            height: auto; } }
   header.header .menu-btn-container {
     position: fixed;
     z-index: 1;
